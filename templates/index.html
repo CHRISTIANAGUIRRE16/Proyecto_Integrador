@@ -19,13 +19,13 @@
       <div class="card card-body">
         <form action="{{url_for('add_student')}}" method="POST" id="formulario">
           <div class="form-group" id="grupo__usuario">
-            <label for="id_usuario" class ="formulario__label">Numero de cedula</label>
+            <label for="id_usuario" class ="formulario__label">Número de cédula</label>
              <div>
                 <input type="number" class="form-control" name="id_usuario" placeholder="Numero de Cedula">
                 <i class="formulario__validacion-estado fas fa-times-circle"></i>
              </div>
           </div>
-            <p class="formulario__input-error">El numero de cedula debe estar lleno y tener 10 digitos</p>
+            <p class="formulario__input-error">El número de cédula debe estar lleno y tener 10 dígitos</p>
           <div class="form-group" id="grupo_nom1">
               <label form  ="nom_us1" class="formulario__label">Primer Nombre</label>
              <div>
@@ -35,7 +35,7 @@
           </div>
           <p class="formulario__input-error">El Primer Nombre debe tener mas de 3 letras</p>
           <div class="form-group" id="grupo_nom2">
-             <label form ="nom_us2" class="formulario__label">Segun Nombre</label>
+             <label form ="nom_us2" class="formulario__label">Segundo Nombre</label>
               <div>
                 <input type="text" class="form-control" name="nom_us2" placeholder="Segundo nombre">
                 <i class="formulario__validacion-estado fas fa-times-circle"></i>
@@ -75,13 +75,13 @@
           </div>
           <p class="formulario__input-error">La calle secundaria debe tener mas de 4 letras</p>
           <div class="form-group" id="grupo_nro">
-            <label class="form-group" for="nro_casa">Numero de casa</label>
+            <label class="form-group" for="nro_casa">Número de casa</label>
              <div>
                <input type="text" class="form-control" name="nro_casa" placeholder="Numero de casa">
                <i class="formulario__validacion-estado fas fa-times-circle"></i>
              </div>
           </div>
-          <p class="formulario__input-error">El numero de casa debe tener mas de 3 digitos</p>
+          <p class="formulario__input-error">El número de casa debe tener mas de 3 dígitos</p>
           <div class="form-group" id="grupo_parroquia">
             <label class = "form-group" for="parroquia">Parroquia</label>
              <div>
@@ -97,7 +97,7 @@
                <i class="formulario__validacion-estado fas fa-times-circle"></i>
              </div>
             </div>
-          <p class="formulario__input-error">El numero de telefono debe de tener mas de 10 digitos numericos</p>
+          <p class="formulario__input-error">El número de télefono debe de tener mas de 10 dígitos numéricos</p>
           <div class="form-group" id="grupo_email">
             <label class = "form-group" for="email">Email</label>
             <div>
@@ -105,7 +105,7 @@
               <i class="formulario__validacion-estado fas fa-times-circle"></i>
             </div>
           </div>
-          <p class="formulario__input-error">El correo solo puede contener letras,numeros,puntos,giones y guion bajo</p>
+          <p class="formulario__input-error">El correo solo puede contener letras,números,puntos,guiones y guion bajo</p>
           <div class="form-group" id="grupo_password">
             <label class = "form-group" for="password">Contraseña</label>
              <div>
@@ -123,7 +123,7 @@
           </div>
           <p  class="formulario__input-error">La contraseña de ser igual a la anterior</p>
           <div class="form-group" id="grupo_rol">
-            <label class = "form-group" for="rol">Codigo de rol</label>
+            <label class = "form-group" for="rol">Código de rol</label>
              <div>
                <input type="number" class="form-control" name="id_rol" placeholder="Codigo de rol">
                <i class="formulario__validacion-estado fas fa-times-circle"></i>
