@@ -1,6 +1,15 @@
+<!DOCTYPE html>
+ <html lang="es">
+    <head>
+        <title style= "text-align: center">Tata Magic Skin</title>
+        <meta charset="utf=8"/>
+        <meta name="keyboards" content="maquillaje, cuidado personal, skin care">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+    </head>  
 
 {% extends "layout.html" %}
 {% block body %}
+<div><h1 id="titulo" style="text-align:center">Tata Magic Skin</h1></div>
  <div class="row"><h3>Registro de Datos</h3></div>
   <div class="row">
     <div class="col-md-4">
@@ -143,3 +152,4 @@
 <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
   
 {% endblock %}
+</html>

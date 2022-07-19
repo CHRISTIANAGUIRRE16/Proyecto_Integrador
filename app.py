@@ -8,9 +8,9 @@ app = Flask(__name__)
 app.secret_key = "cairocoders-ednalan"
  
 DB_HOST = "localhost"
-DB_NAME = "Proyecto_Integrador"
+DB_NAME = "tata_magic_skin"
 DB_USER = "postgres"
-DB_PASS = "erick123E"
+DB_PASS = "1234"
  
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
  
