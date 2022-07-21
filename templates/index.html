@@ -27,14 +27,15 @@
       {% endwith %}
       <div class="card card-body">
         <form action="{{url_for('add_student')}}" method="POST" id="formulario">
+
           <div class="form-group" id="grupo__usuario">
             <label for="id_usuario" class ="formulario__label">Número de cédula</label>
              <div>
-                <input type="number" class="form-control" name="id_usuario" placeholder="Numero de Cedula">
+                <input type="number" class="form-control" name="id_usuario" placeholder="Número de Cédula">
                 <i class="formulario__validacion-estado fas fa-times-circle"></i>
              </div>
           </div>
-            <p class="formulario__input-error">El número de cédula debe estar lleno y tener 10 dígitos</p>
+            <p id="consejos" class="formulario__input-error">El número de cédula debe estar lleno y tener 10 dígitos</p>
           <div class="form-group" id="grupo_nom1">
               <label form  ="nom_us1" class="formulario__label">Primer Nombre</label>
              <div>
@@ -139,7 +140,6 @@
              </div>
           </div>
           <p class="formulario__input-error">El id debe tener 4 caracteres</p>
-          
           <button class="btn btn-primary btn-block">
             Save 
           </button>
